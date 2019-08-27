@@ -15,6 +15,8 @@
 		58247AE62315B087003E2E12 /* Parsing_JSON_LabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58247AE52315B087003E2E12 /* Parsing_JSON_LabTests.swift */; };
 		58247AF12315B087003E2E12 /* Parsing_JSON_LabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58247AF02315B087003E2E12 /* Parsing_JSON_LabUITests.swift */; };
 		58247B012315B781003E2E12 /* colors.json in Resources */ = {isa = PBXBuildFile; fileRef = 58247B002315B781003E2E12 /* colors.json */; };
+		58247B052315C14B003E2E12 /* weather.json in Resources */ = {isa = PBXBuildFile; fileRef = 58247B042315C14B003E2E12 /* weather.json */; };
+		58247B072315C2AA003E2E12 /* users.json in Resources */ = {isa = PBXBuildFile; fileRef = 58247B062315C2AA003E2E12 /* users.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +50,9 @@
 		58247AEC2315B087003E2E12 /* Parsing-JSON-LabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Parsing-JSON-LabUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58247AF02315B087003E2E12 /* Parsing_JSON_LabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parsing_JSON_LabUITests.swift; sourceTree = "<group>"; };
 		58247AF22315B087003E2E12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		58247B002315B781003E2E12 /* colors.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = colors.json; sourceTree = "<group>"; };
+		58247B002315B781003E2E12 /* colors.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = colors.json; path = ../colors.json; sourceTree = "<group>"; };
+		58247B042315C14B003E2E12 /* weather.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = weather.json; sourceTree = "<group>"; };
+		58247B062315C2AA003E2E12 /* users.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = users.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +83,6 @@
 		58247AC42315B085003E2E12 = {
 			isa = PBXGroup;
 			children = (
-				58247B002315B781003E2E12 /* colors.json */,
 				58247ACF2315B085003E2E12 /* Parsing-JSON-Lab */,
 				58247AE42315B087003E2E12 /* Parsing-JSON-LabTests */,
 				58247AEF2315B087003E2E12 /* Parsing-JSON-LabUITests */,
@@ -101,6 +104,9 @@
 			isa = PBXGroup;
 			children = (
 				58247AD02315B085003E2E12 /* AppDelegate.swift */,
+				58247B062315C2AA003E2E12 /* users.json */,
+				58247B002315B781003E2E12 /* colors.json */,
+				58247B042315C14B003E2E12 /* weather.json */,
 				58247AD22315B085003E2E12 /* ViewController.swift */,
 				58247AD42315B085003E2E12 /* Main.storyboard */,
 				58247AD72315B086003E2E12 /* Assets.xcassets */,
@@ -232,6 +238,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58247B072315C2AA003E2E12 /* users.json in Resources */,
+				58247B052315C14B003E2E12 /* weather.json in Resources */,
 				58247ADB2315B086003E2E12 /* LaunchScreen.storyboard in Resources */,
 				58247B012315B781003E2E12 /* colors.json in Resources */,
 				58247AD82315B086003E2E12 /* Assets.xcassets in Resources */,
