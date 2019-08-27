@@ -8,14 +8,22 @@
 
 import Foundation
 
-enum JSONError: Error {
+enum ColorJSONError: Error {
     case decodingError(Error)
 }
 
-struct colorJSON: Codable {
+struct ColorJSON: Codable {
     var color: [Color]
     
-    //do static function here 
+    static func getColors(from data: Data) throws -> [ColorJSON] {
+        do {
+            let allColors = try
+                JSONDecoder().decode([ColorJSON].self, from: data)
+            return allColors
+        } catch {
+            throw ColorJSONError.decodingError(error)
+        }
+    }
 }
 
 struct Color: Codable {
