@@ -57,7 +57,7 @@
 		58247B042315C14B003E2E12 /* weather.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = weather.json; sourceTree = "<group>"; };
 		58247B062315C2AA003E2E12 /* users.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = users.json; sourceTree = "<group>"; };
 		58247B082315C40A003E2E12 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
-		58247B0A2315CC27003E2E12 /* colors.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = colors.json; path = ../colors.json; sourceTree = "<group>"; };
+		58247B0A2315CC27003E2E12 /* colors.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = colors.json; sourceTree = "<group>"; };
 		58247B0C2315CDF6003E2E12 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		58247B0E2315D520003E2E12 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		58247B102315D782003E2E12 /* error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = error.swift; sourceTree = "<group>"; };
