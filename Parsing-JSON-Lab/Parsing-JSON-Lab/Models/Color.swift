@@ -15,10 +15,10 @@ enum ColorJSONError: Error {
 struct ColorJSON: Codable {
     var color: [Color]
     
-    static func getColors(from data: Data) throws -> [ColorJSON] {
+    static func getColors(from data: Data) throws -> ColorJSON {
         do {
             let allColors = try
-                JSONDecoder().decode([ColorJSON].self, from: data)
+                JSONDecoder().decode(ColorJSON.self, from: data)
             return allColors
         } catch {
             throw ColorJSONError.decodingError(error)

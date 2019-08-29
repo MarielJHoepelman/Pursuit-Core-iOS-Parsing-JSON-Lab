@@ -22,6 +22,8 @@
 		58247B0F2315D520003E2E12 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58247B0E2315D520003E2E12 /* User.swift */; };
 		58247B112315D782003E2E12 /* error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58247B102315D782003E2E12 /* error.swift */; };
 		58247B1723170D60003E2E12 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58247B1623170D60003E2E12 /* WeatherViewController.swift */; };
+		58247B1923176023003E2E12 /* WeatherDetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58247B1823176023003E2E12 /* WeatherDetailedViewController.swift */; };
+		58247B1B23176A8F003E2E12 /* ColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58247B1A23176A8F003E2E12 /* ColorsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		58247B0E2315D520003E2E12 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		58247B102315D782003E2E12 /* error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = error.swift; sourceTree = "<group>"; };
 		58247B1623170D60003E2E12 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		58247B1823176023003E2E12 /* WeatherDetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetailedViewController.swift; sourceTree = "<group>"; };
+		58247B1A23176A8F003E2E12 /* ColorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,7 +171,9 @@
 		58247B1423170CF8003E2E12 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				58247B1A23176A8F003E2E12 /* ColorsViewController.swift */,
 				58247AD22315B085003E2E12 /* ViewController.swift */,
+				58247B1823176023003E2E12 /* WeatherDetailedViewController.swift */,
 				58247B1623170D60003E2E12 /* WeatherViewController.swift */,
 			);
 			path = Controllers;
@@ -316,11 +322,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				58247B0D2315CDF6003E2E12 /* Weather.swift in Sources */,
+				58247B1923176023003E2E12 /* WeatherDetailedViewController.swift in Sources */,
 				58247AD32315B085003E2E12 /* ViewController.swift in Sources */,
 				58247AD12315B085003E2E12 /* AppDelegate.swift in Sources */,
 				58247B0F2315D520003E2E12 /* User.swift in Sources */,
 				58247B1723170D60003E2E12 /* WeatherViewController.swift in Sources */,
 				58247B112315D782003E2E12 /* error.swift in Sources */,
+				58247B1B23176A8F003E2E12 /* ColorsViewController.swift in Sources */,
 				58247B092315C40A003E2E12 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

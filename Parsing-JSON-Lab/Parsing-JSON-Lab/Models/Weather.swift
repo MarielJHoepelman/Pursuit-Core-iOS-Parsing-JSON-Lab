@@ -13,12 +13,13 @@ enum weatherJSONError: Error {
 }
 
 struct WeatherJSON: Codable {
-    let locationWeather: [LocationWeather]
+    let list: [List]
     
     static func getWeather(from data: Data) throws -> WeatherJSON {
         do {
             let weather = try
                 JSONDecoder().decode(WeatherJSON.self, from: data)
+            print(data)
             return weather
         } catch {
             throw weatherJSONError.decodingError(error)
@@ -26,14 +27,14 @@ struct WeatherJSON: Codable {
     }
 }
 
-struct LocationWeather: Codable {
+struct List: Codable {
     let name: String
     let main: Main
-    let weather: Weather
+    let weather: [Weather]
 }
 
 struct Main: Codable {
-    let temperature: Double
+    let temp: Double
 }
 
 

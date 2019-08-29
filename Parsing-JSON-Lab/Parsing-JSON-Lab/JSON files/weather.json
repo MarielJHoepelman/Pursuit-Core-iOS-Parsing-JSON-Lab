@@ -1,499 +1,533 @@
 {
-    "cod": "200",
-    "calctime": 0.3107,
+    "cod": 200,
+    "calctime": 0.130095186,
     "cnt": 15,
     "list": [
         {
+            "id": 2208485,
+            "dt": 1567040959,
+            "name": "Zlitan",
+            "coord": {
+                "Lon": 14.57,
+                "Lat": 32.47
+            },
+            "main": {
+                "temp": 23.55,
+                "temp_min": 23.55,
+                "temp_max": 23.55,
+                "pressure": 1015.55,
+                "sea_level": 1015.55,
+                "grnd_level": 1012.09,
+                "humidity": 77
+            },
+            "wind": {
+                "speed": 3.31,
+                "deg": 167.051
+            },
+            "rain": null,
+            "snow": null,
+            "clouds": {
+                "today": 0
+            },
+            "weather": [
+                {
+                    "id": 800,
+                    "main": "Clear",
+                    "description": "clear sky",
+                    "icon": "01n"
+                }
+            ]
+        },
+        {
             "id": 2208791,
+            "dt": 1567040959,
             "name": "Yafran",
             "coord": {
-                "lon": 12.52859,
-                "lat": 32.06329
+                "Lon": 12.53,
+                "Lat": 32.06
             },
             "main": {
-                "temp": 9.68,
-                "temp_min": 9.681,
-                "temp_max": 9.681,
-                "pressure": 961.02,
-                "sea_level": 1036.82,
-                "grnd_level": 961.02,
-                "humidity": 85
+                "temp": 23.35,
+                "temp_min": 23.35,
+                "temp_max": 23.35,
+                "pressure": 1014.52,
+                "sea_level": 1014.52,
+                "grnd_level": 949.69,
+                "humidity": 57
             },
-            "dt": 1485784982,
             "wind": {
-                "speed": 3.96,
-                "deg": 356.5
+                "speed": 8.26,
+                "deg": 143.439
             },
-            "rain": {
-                "3h": 0.255
-            },
+            "rain": null,
+            "snow": null,
             "clouds": {
-                "all": 88
+                "today": 0
             },
             "weather": [
                 {
-                    "id": 500,
-                    "main": "Rain",
-                    "description": "light rain",
-                    "icon": "10d"
-                }
-            ]
-        },
-        {
-            "id": 2208425,
-            "name": "Zuwarah",
-            "coord": {
-                "lon": 12.08199,
-                "lat": 32.931198
-            },
-            "main": {
-                "temp": 15.36,
-                "temp_min": 15.356,
-                "temp_max": 15.356,
-                "pressure": 1036.81,
-                "sea_level": 1037.79,
-                "grnd_level": 1036.81,
-                "humidity": 89
-            },
-            "dt": 1485784982,
-            "wind": {
-                "speed": 5.46,
-                "deg": 30.0002
-            },
-            "clouds": {
-                "all": 56
-            },
-            "weather": [
-                {
-                    "id": 803,
-                    "main": "Clouds",
-                    "description": "broken clouds",
-                    "icon": "04d"
-                }
-            ]
-        },
-        {
-            "id": 2212771,
-            "name": "Sabratah",
-            "coord": {
-                "lon": 12.48845,
-                "lat": 32.79335
-            },
-            "main": {
-                "temp": 15.31,
-                "temp_min": 15.306,
-                "temp_max": 15.306,
-                "pressure": 1037.05,
-                "sea_level": 1037.55,
-                "grnd_level": 1037.05,
-                "humidity": 100
-            },
-            "dt": 1485784982,
-            "wind": {
-                "speed": 6.71,
-                "deg": 28.5002
-            },
-            "clouds": {
-                "all": 92
-            },
-            "weather": [
-                {
-                    "id": 804,
-                    "main": "Clouds",
-                    "description": "overcast clouds",
-                    "icon": "04d"
-                }
-            ]
-        },
-        {
-            "id": 2217362,
-            "name": "Gharyan",
-            "coord": {
-                "lon": 13.02028,
-                "lat": 32.172218
-            },
-            "main": {
-                "temp": 11.23,
-                "temp_min": 11.231,
-                "temp_max": 11.231,
-                "pressure": 1004.23,
-                "sea_level": 1037.06,
-                "grnd_level": 1004.23,
-                "humidity": 90
-            },
-            "dt": 1485784982,
-            "wind": {
-                "speed": 3.86,
-                "deg": 16.5002
-            },
-            "rain": {
-                "3h": 1.29
-            },
-            "clouds": {
-                "all": 92
-            },
-            "weather": [
-                {
-                    "id": 500,
-                    "main": "Rain",
-                    "description": "light rain",
-                    "icon": "10d"
-                }
-            ]
-        },
-        {
-            "id": 2216885,
-            "name": "Zawiya",
-            "coord": {
-                "lon": 12.72778,
-                "lat": 32.75222
-            },
-            "main": {
-                "temp": 17,
-                "pressure": 1024,
-                "humidity": 55,
-                "temp_min": 17,
-                "temp_max": 17
-            },
-            "dt": 1485784982,
-            "wind": {
-                "speed": 3.6,
-                "deg": 10
-            },
-            "clouds": {
-                "all": 40
-            },
-            "weather": [
-                {
-                    "id": 802,
-                    "main": "Clouds",
-                    "description": "scattered clouds",
-                    "icon": "03d"
+                    "id": 800,
+                    "main": "Clear",
+                    "description": "clear sky",
+                    "icon": "01n"
                 }
             ]
         },
         {
             "id": 2210247,
+            "dt": 1567040959,
             "name": "Tripoli",
             "coord": {
-                "lon": 13.18746,
-                "lat": 32.875191
+                "Lon": 13.19,
+                "Lat": 32.88
             },
             "main": {
-                "temp": 16,
-                "pressure": 1025,
-                "humidity": 59,
-                "temp_min": 16,
-                "temp_max": 16
+                "temp": 27.05,
+                "temp_min": 27.05,
+                "temp_max": 27.05,
+                "pressure": 1014.16,
+                "sea_level": 1014.16,
+                "grnd_level": 1013.83,
+                "humidity": 66
             },
-            "dt": 1485781822,
             "wind": {
-                "speed": 3.6,
-                "deg": 360
+                "speed": 8.61,
+                "deg": 124.903
             },
+            "rain": null,
+            "snow": null,
             "clouds": {
-                "all": 40
+                "today": 0
             },
             "weather": [
                 {
-                    "id": 802,
-                    "main": "Clouds",
-                    "description": "scattered clouds",
-                    "icon": "03d"
+                    "id": 800,
+                    "main": "Clear",
+                    "description": "clear sky",
+                    "icon": "01n"
                 }
             ]
         },
         {
             "id": 2210221,
+            "dt": 1567040959,
             "name": "Tarhuna",
             "coord": {
-                "lon": 13.6332,
-                "lat": 32.43502
+                "Lon": 13.63,
+                "Lat": 32.44
             },
             "main": {
-                "temp": 17,
-                "pressure": 1024,
-                "humidity": 55,
-                "temp_min": 17,
-                "temp_max": 17
+                "temp": 22.95,
+                "temp_min": 22.95,
+                "temp_max": 22.95,
+                "pressure": 1015.02,
+                "sea_level": 1015.02,
+                "grnd_level": 981.64,
+                "humidity": 69
             },
-            "dt": 1485784982,
             "wind": {
-                "speed": 3.6,
-                "deg": 10
+                "speed": 7.33,
+                "deg": 146.826
             },
+            "rain": null,
+            "snow": null,
             "clouds": {
-                "all": 40
+                "today": 0
             },
             "weather": [
                 {
-                    "id": 802,
-                    "main": "Clouds",
-                    "description": "scattered clouds",
-                    "icon": "03d"
+                    "id": 800,
+                    "main": "Clear",
+                    "description": "clear sky",
+                    "icon": "01n"
+                }
+            ]
+        },
+        {
+            "id": 2208425,
+            "dt": 1567040959,
+            "name": "Zuwarah",
+            "coord": {
+                "Lon": 12.08,
+                "Lat": 32.93
+            },
+            "main": {
+                "temp": 27.75,
+                "temp_min": 27.75,
+                "temp_max": 27.75,
+                "pressure": 1013.16,
+                "sea_level": 1013.16,
+                "grnd_level": 1012.2,
+                "humidity": 58
+            },
+            "wind": {
+                "speed": 9.6,
+                "deg": 115.529
+            },
+            "rain": null,
+            "snow": null,
+            "clouds": {
+                "today": 0
+            },
+            "weather": [
+                {
+                    "id": 800,
+                    "main": "Clear",
+                    "description": "clear sky",
+                    "icon": "01n"
+                }
+            ]
+        },
+        {
+            "id": 2212771,
+            "dt": 1567040959,
+            "name": "Sabratah",
+            "coord": {
+                "Lon": 12.49,
+                "Lat": 32.79
+            },
+            "main": {
+                "temp": 27.75,
+                "temp_min": 27.75,
+                "temp_max": 27.75,
+                "pressure": 1013.16,
+                "sea_level": 1013.16,
+                "grnd_level": 1012.2,
+                "humidity": 58
+            },
+            "wind": {
+                "speed": 9.6,
+                "deg": 115.529
+            },
+            "rain": null,
+            "snow": null,
+            "clouds": {
+                "today": 0
+            },
+            "weather": [
+                {
+                    "id": 800,
+                    "main": "Clear",
+                    "description": "clear sky",
+                    "icon": "01n"
+                }
+            ]
+        },
+        {
+            "id": 2216885,
+            "dt": 1567040959,
+            "name": "Zawiya",
+            "coord": {
+                "Lon": 12.73,
+                "Lat": 32.75
+            },
+            "main": {
+                "temp": 27.35,
+                "temp_min": 27.35,
+                "temp_max": 27.35,
+                "pressure": 1013.66,
+                "sea_level": 1013.66,
+                "grnd_level": 1012.99,
+                "humidity": 65
+            },
+            "wind": {
+                "speed": 10.62,
+                "deg": 117.704
+            },
+            "rain": null,
+            "snow": null,
+            "clouds": {
+                "today": 0
+            },
+            "weather": [
+                {
+                    "id": 800,
+                    "main": "Clear",
+                    "description": "clear sky",
+                    "icon": "01n"
                 }
             ]
         },
         {
             "id": 2215163,
+            "dt": 1567040959,
             "name": "Masallatah",
             "coord": {
-                "lon": 14,
-                "lat": 32.616669
+                "Lon": 14,
+                "Lat": 32.62
             },
             "main": {
-                "temp": 12.86,
-                "temp_min": 12.856,
-                "temp_max": 12.856,
-                "pressure": 1000.17,
-                "sea_level": 1036.49,
-                "grnd_level": 1000.17,
+                "temp": 21.75,
+                "temp_min": 21.75,
+                "temp_max": 21.75,
+                "pressure": 1015.36,
+                "sea_level": 1015.36,
+                "grnd_level": 984.62,
+                "humidity": 80
+            },
+            "wind": {
+                "speed": 5.04,
+                "deg": 162.072
+            },
+            "rain": null,
+            "snow": null,
+            "clouds": {
+                "today": 0
+            },
+            "weather": [
+                {
+                    "id": 800,
+                    "main": "Clear",
+                    "description": "clear sky",
+                    "icon": "01n"
+                }
+            ]
+        },
+        {
+            "id": 2217362,
+            "dt": 1567040959,
+            "name": "Gharyan",
+            "coord": {
+                "Lon": 13.02,
+                "Lat": 32.17
+            },
+            "main": {
+                "temp": 26.05,
+                "temp_min": 26.05,
+                "temp_max": 26.05,
+                "pressure": 1014.56,
+                "sea_level": 1014.56,
+                "grnd_level": 999.07,
+                "humidity": 48
+            },
+            "wind": {
+                "speed": 7.05,
+                "deg": 129.506
+            },
+            "rain": null,
+            "snow": null,
+            "clouds": {
+                "today": 0
+            },
+            "weather": [
+                {
+                    "id": 800,
+                    "main": "Clear",
+                    "description": "clear sky",
+                    "icon": "01n"
+                }
+            ]
+        },
+        {
+            "id": 2219905,
+            "dt": 1567040959,
+            "name": "Al Khums",
+            "coord": {
+                "Lon": 14.26,
+                "Lat": 32.65
+            },
+            "main": {
+                "temp": 21.75,
+                "temp_min": 21.75,
+                "temp_max": 21.75,
+                "pressure": 1015.36,
+                "sea_level": 1015.36,
+                "grnd_level": 984.62,
+                "humidity": 80
+            },
+            "wind": {
+                "speed": 5.04,
+                "deg": 162.072
+            },
+            "rain": null,
+            "snow": null,
+            "clouds": {
+                "today": 0
+            },
+            "weather": [
+                {
+                    "id": 800,
+                    "main": "Clear",
+                    "description": "clear sky",
+                    "icon": "01n"
+                }
+            ]
+        },
+        {
+            "id": 2523693,
+            "dt": 1567040882,
+            "name": "Pozzallo",
+            "coord": {
+                "Lon": 14.85,
+                "Lat": 36.73
+            },
+            "main": {
+                "temp": 24.23,
+                "temp_min": 23.33,
+                "temp_max": 25,
+                "pressure": 1017,
                 "humidity": 73
             },
-            "dt": 1485784982,
+            "visibility": 10000,
             "wind": {
-                "speed": 4.81,
-                "deg": 16.5002
+                "speed": 2.1,
+                "deg": 350
             },
             "rain": {
-                "3h": 0.39
+                "3h": 0.312
             },
+            "snow": null,
             "clouds": {
-                "all": 88
+                "today": 0
             },
             "weather": [
                 {
                     "id": 500,
                     "main": "Rain",
                     "description": "light rain",
-                    "icon": "10d"
-                }
-            ]
-        },
-        {
-            "id": 2219905,
-            "name": "Al Khums",
-            "coord": {
-                "lon": 14.26191,
-                "lat": 32.648609
-            },
-            "main": {
-                "temp": 15.18,
-                "temp_min": 15.181,
-                "temp_max": 15.181,
-                "pressure": 1023.35,
-                "sea_level": 1036.01,
-                "grnd_level": 1023.35,
-                "humidity": 73
-            },
-            "dt": 1485784982,
-            "wind": {
-                "speed": 5.26,
-                "deg": 26.0002
-            },
-            "clouds": {
-                "all": 88
-            },
-            "weather": [
-                {
-                    "id": 804,
-                    "main": "Clouds",
-                    "description": "overcast clouds",
-                    "icon": "04d"
-                }
-            ]
-        },
-        {
-            "id": 2208485,
-            "name": "Zlitan",
-            "coord": {
-                "lon": 14.56874,
-                "lat": 32.467381
-            },
-            "main": {
-                "temp": 15.18,
-                "temp_min": 15.181,
-                "temp_max": 15.181,
-                "pressure": 1023.35,
-                "sea_level": 1036.01,
-                "grnd_level": 1023.35,
-                "humidity": 73
-            },
-            "dt": 1485784982,
-            "wind": {
-                "speed": 5.26,
-                "deg": 26.0002
-            },
-            "clouds": {
-                "all": 88
-            },
-            "weather": [
-                {
-                    "id": 804,
-                    "main": "Clouds",
-                    "description": "overcast clouds",
-                    "icon": "04d"
-                }
-            ]
-        },
-        {
-            "id": 2563191,
-            "name": "Birkirkara",
-            "coord": {
-                "lon": 14.46111,
-                "lat": 35.897221
-            },
-            "main": {
-                "temp": 14,
-                "pressure": 1023,
-                "humidity": 62,
-                "temp_min": 14,
-                "temp_max": 14
-            },
-            "dt": 1485784991,
-            "wind": {
-                "speed": 4.1,
-                "deg": 10,
-                "var_beg": 330,
-                "var_end": 30
-            },
-            "clouds": {
-                "all": 40
-            },
-            "weather": [
-                {
-                    "id": 802,
-                    "main": "Clouds",
-                    "description": "scattered clouds",
-                    "icon": "03d"
-                }
-            ]
-        },
-        {
-            "id": 2523650,
-            "name": "Ragusa",
-            "coord": {
-                "lon": 14.71719,
-                "lat": 36.928242
-            },
-            "main": {
-                "temp": 14.54,
-                "pressure": 1022,
-                "humidity": 50,
-                "temp_min": 13,
-                "temp_max": 16
-            },
-            "dt": 1485781816,
-            "wind": {
-                "speed": 3.1,
-                "deg": 20,
-                "var_beg": 350,
-                "var_end": 60
-            },
-            "clouds": {
-                "all": 20
-            },
-            "weather": [
-                {
-                    "id": 801,
-                    "main": "Clouds",
-                    "description": "few clouds",
-                    "icon": "02d"
-                }
-            ]
-        },
-        {
-            "id": 2523693,
-            "name": "Pozzallo",
-            "coord": {
-                "lon": 14.84989,
-                "lat": 36.730541
-            },
-            "main": {
-                "temp": 14,
-                "pressure": 1022,
-                "humidity": 50,
-                "temp_min": 14,
-                "temp_max": 14
-            },
-            "dt": 1485781816,
-            "wind": {
-                "speed": 3.1,
-                "deg": 20,
-                "var_beg": 350,
-                "var_end": 60
-            },
-            "clouds": {
-                "all": 20
-            },
-            "weather": [
-                {
-                    "id": 801,
-                    "main": "Clouds",
-                    "description": "few clouds",
-                    "icon": "02d"
-                }
-            ]
-        },
-        {
-            "id": 2524119,
-            "name": "Modica",
-            "coord": {
-                "lon": 14.77399,
-                "lat": 36.84594
-            },
-            "main": {
-                "temp": 15.74,
-                "pressure": 1022,
-                "humidity": 47,
-                "temp_min": 14,
-                "temp_max": 17
-            },
-            "dt": 1485785168,
-            "wind": {
-                "speed": 2.1,
-                "deg": 0
-            },
-            "clouds": {
-                "all": 40
-            },
-            "weather": [
-                {
-                    "id": 802,
-                    "main": "Clouds",
-                    "description": "scattered clouds",
-                    "icon": "03d"
+                    "icon": "10n"
                 }
             ]
         },
         {
             "id": 2523581,
+            "dt": 1567040882,
             "name": "Rosolini",
             "coord": {
-                "lon": 14.94779,
-                "lat": 36.824242
+                "Lon": 14.95,
+                "Lat": 36.82
             },
             "main": {
-                "temp": 15.62,
-                "pressure": 1022,
-                "humidity": 47,
-                "temp_min": 14,
-                "temp_max": 17
+                "temp": 23.77,
+                "temp_min": 23,
+                "temp_max": 25,
+                "pressure": 1017,
+                "humidity": 73
             },
-            "dt": 1485784979,
+            "visibility": 10000,
             "wind": {
                 "speed": 2.1,
-                "deg": 0
+                "deg": 350
             },
+            "rain": {
+                "3h": 0.312
+            },
+            "snow": null,
             "clouds": {
-                "all": 40
+                "today": 0
             },
             "weather": [
                 {
-                    "id": 802,
+                    "id": 500,
+                    "main": "Rain",
+                    "description": "light rain",
+                    "icon": "10n"
+                }
+            ]
+        },
+        {
+            "id": 2524119,
+            "dt": 1567040882,
+            "name": "Modica",
+            "coord": {
+                "Lon": 14.77,
+                "Lat": 36.85
+            },
+            "main": {
+                "temp": 23.52,
+                "temp_min": 22.78,
+                "temp_max": 25,
+                "pressure": 1017,
+                "humidity": 73
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 2.1,
+                "deg": 350
+            },
+            "rain": {
+                "3h": 0.312
+            },
+            "snow": null,
+            "clouds": {
+                "today": 0
+            },
+            "weather": [
+                {
+                    "id": 500,
+                    "main": "Rain",
+                    "description": "light rain",
+                    "icon": "10n"
+                }
+            ]
+        },
+        {
+            "id": 2523650,
+            "dt": 1567040883,
+            "name": "Ragusa",
+            "coord": {
+                "Lon": 14.72,
+                "Lat": 36.93
+            },
+            "main": {
+                "temp": 23.42,
+                "temp_min": 22.78,
+                "temp_max": 25,
+                "pressure": 1017,
+                "humidity": 73
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 2.1,
+                "deg": 350
+            },
+            "rain": {
+                "3h": 0.312
+            },
+            "snow": null,
+            "clouds": {
+                "today": 0
+            },
+            "weather": [
+                {
+                    "id": 500,
+                    "main": "Rain",
+                    "description": "light rain",
+                    "icon": "10n"
+                }
+            ]
+        },
+        {
+            "id": 2563191,
+            "dt": 1567040961,
+            "name": "Birkirkara",
+            "coord": {
+                "Lon": 14.46,
+                "Lat": 35.9
+            },
+            "main": {
+                "temp": 25.39,
+                "temp_min": 25,
+                "temp_max": 26.11,
+                "pressure": 1016,
+                "humidity": 88
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.5,
+                "deg": 120
+            },
+            "rain": null,
+            "snow": null,
+            "clouds": {
+                "today": 20
+            },
+            "weather": [
+                {
+                    "id": 801,
                     "main": "Clouds",
-                    "description": "scattered clouds",
-                    "icon": "03d"
+                    "description": "few clouds",
+                    "icon": "02n"
                 }
             ]
         }
